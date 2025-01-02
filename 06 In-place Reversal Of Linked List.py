@@ -40,9 +40,10 @@ if __name__ == '__main__':
     head.next.next.next.next = Node(7)
     head.next.next.next.next.next = Node(2)
 
+    print("Given Linked List:")
     print_linked_list(head)
 
     reverse = reverse_list(head)
 
-    print('reversed linked list:', end= " ")
+    print('Reversed linked list:', end="\n")
     print_linked_list(reverse)
